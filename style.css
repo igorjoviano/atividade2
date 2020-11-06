@@ -1,0 +1,118 @@
+header {
+    position: relative;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho .main {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.cabecalho .main h2 {
+    margin-left: 12px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .menu h2 {
+    margin-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 16px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.produtos figure {
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-right: 12px;
+    margin-bottom: 40px;
+}
+
+.produtos figure img{
+   width: 350px;
+   height: 350px;
+   padding: 20px;
+}
+
+.produtos figure figcaption {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.sobre {
+    text-align: center;
+    padding: 12pxs;
+}
+
+
+.sobre p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contato figure {
+    margin-right: 12px;
+    margin-bottom: 40px;
+}
+
+.contato figure img {
+    width: 200px;
+    height: 80px;
+    padding-bottom: 12px;
+}
+
+.contato figure figcaption {
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+footer p{
+    padding: 16px;
+    text-align: center;
+}
